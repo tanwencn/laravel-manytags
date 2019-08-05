@@ -1,0 +1,31 @@
+{
+    "name": "tanwencn/laravel-manytags",
+    "description": "Laravel Manytags",
+    "type": "library",
+    "keywords": ["laravel", "tags", "attributes", "menus", "column", "multi"],
+    "homepage": "https://github.com/tanwencn/laravel-manytags",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanwen",
+            "email": "361657055@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "illuminate/database": "^5.5",
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tanwencn\\Manytags\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tanwencn\\Manytags\\ManytagsServiceProvider"
+            ]
+        }
+    }
+}
