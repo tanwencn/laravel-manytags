@@ -13,6 +13,6 @@ composer require tanwencn/laravel-manytags
 ```bash
 php artisan vendor:publish --provider="Tanwencn\Manytags\ManytagsServiceProvider"
 
-php artisan php artisan migrate
+php artisan migrate
 ```
 
